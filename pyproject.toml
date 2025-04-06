@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "intermediate-feat-eng"
+version = "0.2.0"
+authors = [{ name = "Vijayagopal S.", email = "vijayagopal.sb@gmail.com" }]
+description = "Intermediate feature engineering utilities"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
