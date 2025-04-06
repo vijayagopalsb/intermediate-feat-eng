@@ -1,5 +1,5 @@
 import pytest
-from intermediatefeateng.encoding import one_hot_encode
+from intermediate_feat_eng.encoding import one_hot_encode
 
 def test_one_hot_encode():
     assert one_hot_encode(["cat", "dog", "cat"]) == [[1, 0], [0, 1], [1, 0]]

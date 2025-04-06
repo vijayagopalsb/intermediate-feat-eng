@@ -1,5 +1,5 @@
 import pytest
-from intermediatefeateng.scaling import min_max_scale, standard_scale
+from intermediate_feat_eng.scaling import min_max_scale, standard_scale
 
 def test_min_max_scale():
     assert min_max_scale([1, 2, 3]) == [0.0, 0.5, 1.0]
